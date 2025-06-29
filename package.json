@@ -1,5 +1,5 @@
 {
-    "name": "node-routeros-v2",
+    "name": "@brunozilio/node-routeros-v2",
     "version": "1.6.12",
     "description": "Mikrotik Routerboard RouterOS API for NodeJS",
     "main": "./dist/index",
@@ -12,16 +12,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:jace254/node-routeros.git"
+        "url": "git@github.com:brunozilio/node-routeros-v2.git"
     },
-    "keywords": [
-        "routeros",
-        "routerboard",
-        "mikrotik",
-        "typescript",
-        "node"
-    ],
-    "authors": ["Aluisio Rodrigues Amaral","jace254"],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "keywords": [],
+    "authors": [],
     "license": "MIT",
     "devDependencies": {
         "@types/debug": "0.0.30",
